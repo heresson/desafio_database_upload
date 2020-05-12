@@ -20,12 +20,12 @@ export default class CreateTransaction1588859891266
             default: 'uuid_generate_v4()',
           },
           {
-            name: 'tytle',
+            name: 'title',
             type: 'varchar',
           },
           {
             name: 'value',
-            type: 'money',
+            type: 'float',
           },
           {
             name: 'type',
